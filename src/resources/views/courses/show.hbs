@@ -1,0 +1,20 @@
+<div class="container mx-auto px-14 mt-4">
+    <div class="grid grid-cols-12 gap-4">
+        <div class="rounded-2xl bg-neutral-50 col-span-3 grid place-items-center">Side bar</div>
+        <div class="rounded-2xl bg-neutral-50 p-4 col-span-9">
+            <div class="aspect-video">
+                <iframe class="w-full h-full rounded-2xl"
+                    src="https://www.youtube.com/embed/{{courses.video_id}}"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <h2 class="line-clamp-2 mt-2 tracking-tight font-bold text-lg text-neutral-700">
+                    {{courses.name}}
+                </h2>
+                <p class="line-clamp-2 text-neutral-500 mt-2">
+                    {{courses.description}}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

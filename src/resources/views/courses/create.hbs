@@ -1,0 +1,52 @@
+<div class="container mx-auto px-14 mt-4 grid place-items-center">
+    <form class="bg-white lg:w-1/2 w-full rounded-2xl p-5 px-10 shadow-xl mt-4" action="store" method="post">
+        <div class="relative z-0 w-full mb-6 group">
+            <input
+                type="text"
+                name="name"
+                id="name"
+                class="block py-2.5 px-2 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-sky-500 peer"
+                placeholder=" "
+                required
+            />
+            <label
+                for="name"
+                class="peer-focus:font-light absolute text-sm text-gray-500 duration-200 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-sky-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+            >Name:</label>
+        </div>
+        <div class="relative z-0 w-full mb-6 group">
+            <input
+                type="text"
+                name="description"
+                id="description"
+                class="block py-2.5 px-2 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-sky-500 peer"
+                placeholder=" "
+                required
+            />
+            <label
+                for="description"
+                class="peer-focus:font-light absolute text-sm text-gray-500 duration-200 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-sky-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+            >Description:</label>
+        </div>
+
+        <div class="relative z-0 w-full mb-6 group">
+            <input
+                type="text"
+                name="video_id"
+                id="video_id"
+                class="block py-2.5 px-2 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-sky-500 peer"
+                placeholder=" "
+                required
+            />
+            <label
+                for="video_id"
+                class="peer-focus:font-light absolute text-sm text-gray-500 duration-200 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-sky-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+            >Video ID:</label>
+        </div>
+
+        <button
+            type="submit"
+            class="w-full text-white bg-sky-600 hover:bg-sky-700 font-medium rounded-lg text-sm px-3 py-2 my-2"
+        >Create</button>
+    </form>
+</div>
